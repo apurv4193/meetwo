@@ -1,0 +1,102 @@
+input.invalid{
+ border: 1px solid red;
+}
+.invalid{ 
+ display: inline;
+}
+em.invalid {
+ width: auto;
+ display: inline;
+ color: red;
+ font-weight: normal;
+ font-style: normal;
+}
+
+.add-link{
+  font-size: 18px;
+  color:blue;
+}
+
+.i_delete{
+    color:#d73925;
+}
+.s_active{color: #008d4c;}
+.s_inactive{color: #d73925;}
+.add-btn-primary{width: 50px; margin-bottom: 10px;}
+
+/* ******************************* 03_11_2016 **************************** */
+
+body.login-page{
+    background: rgba(0, 0, 0, 0) url("../images/background.png") repeat scroll 0 0;
+}
+.login-box span.title_border {
+    display: inline-block;
+}
+.login-logo img.logo_img {
+    width: 85px;
+}
+.login-box-body {
+    border: 2px dotted #b293b0;
+}
+
+/* DataTable Css  */
+
+table.dataTable.no-footer{border-bottom: 1px solid #e5e5e5;}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button{padding: 0;}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid transparent;}
+.dataTables_wrapper .dataTables_paginate .paginate_button:active{background: rgba(0, 0, 0, 0) none repeat scroll 0 0;box-shadow: 0 0 3px transparent inset;}
+
+table.dataTable thead .sorting_asc::after, table.dataTable thead .sorting::after, table.dataTable thead .sorting_desc::after {content: none;}
+
+div.RemoveExtraBtn.DTTT_container{display: none;}
+
+.box-body .box_rowcount{clear: both;padding: 10px;}
+
+/* ************* other css *********** */
+
+span.required-field {color: #ff0000;display: inline-block;padding-left: 3px;}
+
+.userAllDetailInbox div.modal-header {
+    padding: 12px;
+}
+.userAllDetailInbox .modal-body .form-group {
+    margin-bottom: 5px;
+}
+.userAllDetailBox hr {
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
+.modal-body {
+    overflow: auto !important;
+    height: 500px !important;
+}.buttoneasy {
+    background-color: #f56c86 !important;
+    border-color: #f56c86 !important;
+}.buttondifficult {
+    background-color: #20aac7 !important;
+    border-color: #20aac7 !important;
+}.dashboard-box {
+    background: #fff;
+    padding:15px;
+}.box-content {
+    text-align: center;
+}
+.gender_cst input[type=radio]:checked + i {
+	display : block;
+}
+.gender_cst input[type=radio] + i {
+	display : none;
+} 
+
+.questiontype_cst input[type=checkbox]:checked + i {
+    display : block;
+}
+.questiontype_cst input[type=checkbox] + i {
+    display : none;
+}  
+.dashboard_text {
+	font-size: 20px;
+	font-weight: bold;
+}

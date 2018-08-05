@@ -1,0 +1,15 @@
+/vendor/
+/composer.lock
+/node_modules
+Homestead.yaml
+Homestead.json
+.env
+/nbproject
+/nbproject/private/
+.env.example
+/public/uploads/
+/vendor
+/.phpintel
+/.idea
+npm-debug.txt
+/npm-debug.log

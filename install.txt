@@ -1,0 +1,7 @@
+1) After extracting put the main folder in www directory
+1) In command prompt going to the root directory of the folder - Run "composer update" command
+2) Setup Databse in mysql and configure in laravel .env file and config/database.php file
+3) Run "php artisan migrate" which will create the basic tables
+4) Run INSERT INTO `admin_users` (`id`, `name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (NULL, 'Service Point Admin', 'admin@servicepoint.com', '$2y$10$tNxqWWEbEfHksxeJDFkRgeZN09naxQTvRAhRbdEdrfnuxFuc2rlwK', 'j2h8r10XKltDwAFk9MrobuMh2omm2by2mBGlHDsr8Txx1TMUwx5yx0lb014y', '2016-07-06 10:03:00', '2016-07-06 10:03:00');
+5) Update labels in language file as per your project name
+6) Create virtual host and run server alias or run http://localhost/projectname/public
